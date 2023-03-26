@@ -70,18 +70,19 @@ a {
   margin: auto;
   background-color: black;
   width: 100%;
+  align-items: center;
 }
 
 #featured {
   height: 700px;
+  width: 1000px;
   padding-top: 70px;
   justify-content: center;
   align-content: center;
 }
 
 #featured .shop-header {
-  background-color: black;
-  width: 100%;
+  background-color: black
 }
 
 #featured .shop {
@@ -127,18 +128,14 @@ a {
   opacity: 1;
 }
 
-footer {
+#contact {
   background-color: black;
-  height: 69px;
-  width:100%;
-  position: fixed;
-  border-top: 1px solid seashell;
-  z-index: 10px;
+  height: 200px;
   justify-content: center;
   align-items: center;
 }
 
-footer.copyright {
-  justify-content: flex-start;
+footer {
+  text-align: left;
   margin-left: 20px;
 }
