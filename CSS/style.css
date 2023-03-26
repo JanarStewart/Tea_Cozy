@@ -89,6 +89,7 @@ a {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  overflow: auto;
 }
 
 #featured .item{
@@ -104,6 +105,10 @@ a {
   padding-top: 70px;
 }
 
+#locations .locations-header {
+  padding-bottom: 15px;
+}
+
 #locations .addresses {
   display: flex;
   flex-wrap: wrap;
@@ -115,7 +120,8 @@ a {
 #locations .address {
   background-color: black;
   color: seashell;
-  line-height: 200%;
+  line-height: 300%;
+  height: 300px;
   width:300px;
   padding: 20px;
   opacity: 1;
