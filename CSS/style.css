@@ -51,6 +51,7 @@ h3,
 h4 {
   margin: 0;
   padding: 10px;
+  color:seashell;
 }
 
 
@@ -106,7 +107,7 @@ a {
 #locations .addresses {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   text-align: center;
 }
@@ -114,8 +115,9 @@ a {
 #locations .address {
   background-color: black;
   color: seashell;
+  line-height: 200%;
   width:300px;
-  padding-top: 70px;
+  padding: 20px;
   opacity: 1;
 }
 
