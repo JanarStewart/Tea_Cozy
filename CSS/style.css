@@ -73,7 +73,9 @@ a {
 
 #featured {
   height: 700px;
-  padding-top: 70px ;
+  padding-top: 70px;
+  justify-content: center;
+  align-content: center;
 }
 
 #featured .shop-header {
@@ -82,8 +84,10 @@ a {
 }
 
 #featured .shop {
-  display: inline;
+  display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 #featured .item{
@@ -92,10 +96,21 @@ a {
   padding: 10px;
 }
 
-.contact {
+#locations {
+
+}
+
+#locations .addresses {
+  display: inline;
+  height:400px;
+  padding-top: 70px;
+
+}
+
+footer {
   background-color: black;
   height: 69px;
-  width: 100%;
+  width:100%;
   position: fixed;
   border-top: 1px solid seashell;
   z-index: 10px;
@@ -103,12 +118,7 @@ a {
   align-items: center;
 }
 
-.copyright {
-  background-color: black;
-  width: 100%;
-  position: fixed;
-  left: 0;
-  z-index: 10px;
+footer.copyright {
   justify-content: flex-start;
-  align-items: bottom;
+  margin-left: 20px;
 }
