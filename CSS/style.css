@@ -38,13 +38,14 @@ header {
 }
 
 nav {
+  text-align: right;
   flex-grow: 1;
 }
 
 li {
   display: inline;
   list-style: none;
-  }
+}
 
 h2,
 h3,
@@ -57,12 +58,12 @@ h4 {
 a {
   color: seashell;
   text-decoration: underline;
-  }
+}
 
 .banner {
     height: 69px;
     width: 1200px;
-    }
+}
 
 .banner-bkgrnd-img {
     background-position: top 69px;
@@ -70,4 +71,4 @@ a {
     background-repeat: none;
     width: 1200px;
     height: 800px;
-    }
+}
