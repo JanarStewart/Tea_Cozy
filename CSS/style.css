@@ -128,14 +128,14 @@ a {
   opacity: 1;
 }
 
-#contact {
+#contact-info {
   background-color: black;
   height: 200px;
   justify-content: center;
   align-items: center;
 }
 
-footer {
+#credits {
   text-align: left;
   margin-left: 20px;
 }
