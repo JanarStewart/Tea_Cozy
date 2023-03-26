@@ -62,6 +62,7 @@ a {
 
 #mission {
     height: 700px;
+    width:1200px;
     background-image: url("../images/img-mission-background.jpg");
     padding-top: 70px;
 }
@@ -97,7 +98,10 @@ a {
 }
 
 #locations {
-
+  height: 500px;
+  width: 1200px;
+  background-image: url("../images/img-locations-background.jpg");
+  padding-top: 70px;
 }
 
 #locations .addresses {
